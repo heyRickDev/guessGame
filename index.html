@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess Game</title>
+  </head>
+  <body>
+    <main>
+      <div class="guessscreen">
+        <h1>Guess Game</h1>
+        <p>Guess the number between 0 and 10</p>
+        <form>
+          <input type="number" id="entry" />
+          <button id="trybtn">Try it!</button>
+        </form>
+      </div>
+      <div class="congratscreen hide">
+        <p><strong>Congratulations!</strong></p>
+        <p id="attemptsmsg"></p>
+        <button id="restartbtn">Restart the game</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
