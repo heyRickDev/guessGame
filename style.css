@@ -9,6 +9,13 @@
 .hide {
   display: none;
 }
+.error {
+  background-color: #faaeae;
+}
+.error:focus {
+  outline: thin solid;
+  color: red;
+}
 body,
 input,
 button {
