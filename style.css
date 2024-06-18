@@ -13,8 +13,7 @@
   background-color: #faaeae;
 }
 .error:focus {
-  outline: thin solid;
-  color: red;
+  outline: thin solid red;
 }
 body,
 input,
@@ -29,6 +28,7 @@ body {
   height: 100vh;
 }
 main {
+  position: relative;
   margin-top: -12rem;
   border-radius: 0.6rem;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -51,6 +51,9 @@ form {
   display: flex;
   justify-content: center;
 }
+.input-wrapper {
+  display: flex;
+}
 input,
 button {
   border: none;
@@ -71,6 +74,12 @@ button {
 }
 button:hover {
   background: #4242c7;
+}
+span {
+  color: red;
+  position: absolute;
+  bottom: 30px;
+  left: 190px;
 }
 #restartbtn {
   border-radius: 0.4rem;
